@@ -1,0 +1,21 @@
+{
+    "services":{
+        "auth": {
+            "datasource": "internal"
+        },
+        "n9mp": {
+            "msgProviderDir": "..",
+            "msgProviderExe":  "dvr_service"
+        },
+        "http": {
+            "host": "0.0.0.0",
+            "docroot":"http",
+            "port": 8080,
+            "sport": 8443,
+            "cert": "www.zbitnev.ru_2019-12-29-15-59_50.crt",
+            "key": "www.zbitnev.ru_2019-12-29-15-59_50.key",
+            "certPath":"cert",
+            "isCacheOn":false
+        }
+    }
+}
